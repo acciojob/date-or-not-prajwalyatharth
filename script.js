@@ -1,6 +1,6 @@
 var isDate = function (input) {
   // Check if input is an instance of Date and is valid
-	return !isNAN(Date.parse(input));
+	return !isNaN(Date.parse(input));
 };
 
 // Do not change the code below.
